@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+
+	<!-- Set the viewport width to device width for mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<title>Kitty-Tac-Toe</title>
+
+	<!-- Included CSS Files (Uncompressed) -->
+	<!--
+	<link rel="stylesheet" href="stylesheets/foundation.css">
+	-->
+
+	<!-- Included CSS Files (Compressed) -->
+	<link href='http://fonts.googleapis.com/css?family=Life+Savers:700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="stylesheets/foundation.min.css">
+	<link rel="stylesheet" href="stylesheets/app.css">
+	<link rel="stylesheet" href="stylesheets/style.css">
+	<script src="javascripts/modernizr.foundation.js"></script>
+</head>
+<body>
+<div class="row">
+	<div class="twelve columns centered">
+		<h1>Kitty-Tac-Toe</h1>
+	</div>
+</div>
+<div class = "row">
+	<div id = "box0" class = "four columns mobile-four">
+		<img id = "img0" src = "images/black-kitty.png" onclick="selectSquare(this)" onmouseover="mouseOverImage(this)" onmouseout="mouseOutImage(this)">
+	</div>
+	<div id = "box1" class = "four columns mobile-four border-sides">
+		<img id = "img1" src = "images/black-kitty.png" onclick="selectSquare(this)" onmouseover="mouseOverImage(this)" onmouseout="mouseOutImage(this)">
+	</div>
+	<div id = "box2" class = "four columns mobile-four">
+		<img id = "img2" src = "images/black-kitty.png" onclick="selectSquare(this)" onmouseover="mouseOverImage(this)" onmouseout="mouseOutImage(this)">
+	</div>
+</div>
+<div class = "row border-top-bottom">
+	<div id = "box3" class = "four columns mobile-four">
+		<img id = "img3" src = "images/black-kitty.png" onclick="selectSquare(this)" onmouseover="mouseOverImage(this)" onmouseout="mouseOutImage(this)">
+	</div>
+	<div id = "box4" class = "four columns mobile-four border-sides">
+		<img id = "img4" src = "images/black-kitty.png" onclick="selectSquare(this)" onmouseover="mouseOverImage(this)" onmouseout="mouseOutImage(this)">
+	</div>
+	<div id = "box5" class = "four columns mobile-four">
+		<img id = "img5" src = "images/black-kitty.png" onclick="selectSquare(this)" onmouseover="mouseOverImage(this)" onmouseout="mouseOutImage(this)">
+	</div>
+</div>
+<div class = "row">
+	<div id = "box6" class = "four columns mobile-four">
+		<img id = "img6" src = "images/black-kitty.png" onclick="selectSquare(this)" onmouseover="mouseOverImage(this)" onmouseout="mouseOutImage(this)">
+	</div>
+	<div id = "box7" class = "four columns mobile-four border-sides">
+		<img id = "img7" src = "images/black-kitty.png" onclick="selectSquare(this)" onmouseover="mouseOverImage(this)" onmouseout="mouseOutImage(this)">
+	</div>
+	<div id = "box8" class = "four columns mobile-four">
+		<img id = "img8" src = "images/black-kitty.png" onclick="selectSquare(this)" onmouseover="mouseOverImage(this)" onmouseout="mouseOutImage(this)">
+	</div>
+</div>
+<div id = "idReset"></div>
+<div class="row margin-top">
+	<div class = "four columns mobile-four center-text">
+		<a href = "#" class = "easy-button" onclick = "easyGame()">Easy Game</a>
+	</div>
+	<div class = "four columns mobile-four center-text">
+		<a href = "#" class = "enter-button" onclick = "calculate()">Finalize Move</a>
+	</div>
+	<div class = "four columns mobile-four center-text">
+		<a href = "#" class = "reload-button" onclick = "newGame()">New Game</a>
+	</div>	
+	</div>
+</div>
+
+<footer>
+	<div class="row">
+		<div class = "six columns">
+			<p class="footer">Created by <a href="http://janmilosh.com" target="_blank">Jan Milosh</a></p>
+		</div>
+	</div>
+</footer>
+
+<!-- Included JS Files (Compressed) -->
+<script src="javascripts/foundation.min.js"></script>
+
+<!-- Initialize JS Plugins -->
+<script src="javascripts/app.js"></script>
+<script src="javascripts/jan.js"></script>
+
+  
+</body>
+</html>

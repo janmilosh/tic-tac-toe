@@ -1,0 +1,84 @@
+html, body {min-height: 800px;}
+body {
+	background: #000;
+	background: url(../images/moulin.png);
+	}
+img {
+	padding: 25px 20px;
+	}
+.row {
+	width: 550px;
+	max-width: 100%;
+	min-width: 550px;
+	margin: 0 auto;
+	}
+.center-text {
+	font-size: 16px;
+	margin: 15px 0 30px;
+	text-align: center;
+	}
+.border-top-bottom {
+	border-top: 3px solid #aaa;
+	border-bottom: 3px solid #aaa;
+	}
+.border-sides {
+	border-left: 3px solid #aaa;
+	border-right: 3px solid #aaa;
+	}
+.margin-top {
+	margin-top: 20px;
+	}
+h1, h2, h3 {
+	text-align: center;
+	font-family: 'life savers';
+	font-weight: 700;
+	color: #c454c9;
+	}
+h1 {
+	margin: 25px 0;
+	}
+a.easy-button, a.reload-button, a.enter-button {
+	color: #fff;
+	}
+.easy-button {
+	background: #8f2e94;
+	}
+.reload-button {
+	background: #aaa;
+	}
+.enter-button {
+	background: #37b819;
+	}
+.easy-button, .reload-button, .enter-button {
+	margin: 0 10px;
+	padding: 6px 10px;
+	border-radius: 8px;
+	color: #fff;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+	box-shadow: inset -1px -1px 8px rgba(0,0,0,0.5);
+	}
+.easy-button:hover {
+	background: #c454c9;
+	}
+.reload-button:hover {
+	background: #bbb;
+	}
+.enter-button:hover {
+	background: #4adc28;
+	}
+
+footer {
+	padding: 30px;
+	}
+footer p {
+	color: #fff;
+	margin: 0;
+	}
+footer a {
+	color: #fff;
+	text-decoration: none;
+	}
+footer a:hover {
+	color: #fff;
+	text-decoration: underline;
+	}
